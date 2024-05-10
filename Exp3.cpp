@@ -1,3 +1,6 @@
+#include<iostream>
+using namespace std;
+
 string encrypt(string text, int s)
 {
 string result = "";
