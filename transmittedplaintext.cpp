@@ -4,9 +4,7 @@ class LoginManager{
 public:
 string userNameAttempt;
 string passWordAttempt;
-LoginManager(){
-  accessGranted = 0;
-}
+
 void login(){
   cout << "Please Enter the Username & Password. \nUsername : ";
   cin >> userNameAttempt;
@@ -22,8 +20,8 @@ void login(){
 private:
 string passWord = "password123";
 string userName = "user@gmail.com";
-bool accessGranted;
 };
+
 int main()
 {
   LoginManager loginManagerObj;
